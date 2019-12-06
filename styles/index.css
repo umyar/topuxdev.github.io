@@ -6,7 +6,7 @@
 body {
   color: #feca39;
   background-color: #1a1a1a;
-  font-family: "Heebo", sans-serif;
+  font-family: "Heebo", "Montserrat", sans-serif;
 }
 .main-layout {
   margin: 0 100px;
@@ -36,16 +36,18 @@ h1 {
 }
 main {
   margin: 0 auto;
-  height: 300px;
   text-align: center;
-  padding-top: 200px;
-  font-size: 30px;
-  font-weight: 300;
+}
+main h2 {
+  font-weight: normal;
+  font-size: 60px;
+  margin: auto;
 }
 footer {
+  display: flex;
   text-align: center;
   position: absolute;
-  bottom: 10%;
+  bottom: 30px;
   left: 40%;
 }
 .ligth {
@@ -60,4 +62,29 @@ footer {
 }
 #switch {
   display: none;
+}
+.contacts a {
+  display: block;
+  text-decoration: none;
+  color: #feca39;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.contacts ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.contact {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.contact img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
