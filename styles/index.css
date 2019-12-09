@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,33 +9,41 @@
 body {
   color: #feca39;
   background-color: #1a1a1a;
-  font-family: "Heebo", "Montserrat", sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 .main-layout {
-  margin: 0 100px;
+  margin: 0 10rem;
 }
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 3rem;
 }
 .logo {
   display: grid;
-  grid-column-gap: 10px;
-  grid-template-columns: 57px 141px;
-  grid-template-rows: 44px 44px;
+  grid-column-gap: 1rem;
+  grid-template-columns: 5.7rem 16rem;
+  grid-template-rows: 4.4rem 4.4rem;
   cursor: pointer;
   user-select: none;
+}
+.logo-lamp {
+  display: block;
+}
+.logo-lamp img {
+  width: 100%;
 }
 .digital {
   grid-column-start: 2;
   font-weight: 300;
   text-align: center;
+  font-size: 1.5rem;
 }
 h1 {
   grid-column-start: 2;
   text-align: center;
   font-weight: 700;
+  font-size: 3.3rem;
 }
 main {
   margin: 0 auto;
@@ -40,37 +51,30 @@ main {
 }
 main h2 {
   font-weight: normal;
-  font-size: 60px;
+  font-size: 6rem;
   margin: auto;
 }
 footer {
   display: flex;
   text-align: center;
-  position: absolute;
-  bottom: 30px;
-  left: 40%;
+  width: 100%;
+  justify-content: center;
 }
 .ligth {
-  display: flex;
   cursor: pointer;
-  padding: 10px;
-  word-wrap: break-word;
+  height: 8.8rem;
 }
-.ligth:hover {
-  background-color: #feca39;
-  color: #1a1a1a;
-}
-#switch {
-  display: none;
+.ligth img {
+  height: 8.8rem;
 }
 .contacts a {
   display: block;
   text-decoration: none;
   color: #feca39;
   width: 100%;
-  font-size: 15px;
+  font-size: 1.5rem;
   letter-spacing: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .contacts ul {
@@ -80,11 +84,22 @@ footer {
 }
 .contact {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 1rem;
 }
 
 .contact img {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  .main-layout {
+    margin: 0;
+  }
+  .ligth {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+  }
 }
