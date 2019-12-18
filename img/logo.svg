@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 57.09 88.02" style="enable-background:new 0 0 57.09 88.02;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#D96E52;stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{fill:url(#SVGID_3_);}
+	.st4{fill:none;stroke:url(#силуэт_1_);stroke-width:3;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M20.46,66.04c2.92,1.34,4.09,2.03,8.55,2.09"/>
+<path class="st0" d="M19.87,61.87c3,1.26,3.04,1.57,6.97,1.67"/>
+<path class="st0" d="M19.87,57.84c3.04,1.47,3.18,1.53,7.05,1.59"/>
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="11.5138" y1="28.4201" x2="46.6291" y2="28.4201">
+			<stop  offset="7.449273e-03" style="stop-color:#D76543"/>
+			<stop  offset="1" style="stop-color:#F1D046"/>
+			<stop  offset="1" style="stop-color:#BFA44E"/>
+			<stop  offset="1" style="stop-color:#68594D"/>
+			<stop  offset="1" style="stop-color:#201037"/>
+			<stop  offset="1" style="stop-color:#1E0C37"/>
+		</linearGradient>
+		<path class="st1" d="M22.94,31.71c0.72,0.3,1.3,1.19,1.3,1.97v1.02c0,0.78-0.58,1.15-1.28,0.82L12.8,30.78
+			c-0.71-0.33-1.28-1.24-1.28-2.02V28.3c0-0.78,0.58-1.69,1.28-2.02l10.16-4.74c0.71-0.33,1.28,0.04,1.28,0.82v1.05
+			c0,0.78-0.59,1.66-1.31,1.96l-6.25,2.59c-0.72,0.3-0.72,0.79,0,1.1L22.94,31.71z"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="11.5138" y1="28.4201" x2="46.6291" y2="28.4201">
+			<stop  offset="7.449273e-03" style="stop-color:#D76543"/>
+			<stop  offset="1" style="stop-color:#F1D046"/>
+			<stop  offset="1" style="stop-color:#BFA44E"/>
+			<stop  offset="1" style="stop-color:#68594D"/>
+			<stop  offset="1" style="stop-color:#201037"/>
+			<stop  offset="1" style="stop-color:#1E0C37"/>
+		</linearGradient>
+		<path class="st2" d="M32.38,19.6c-0.15,0.69-0.41,1.88-0.58,2.64l-2.92,12.94c-0.17,0.76-0.41,1.8-0.53,2.31c0,0,0,0-0.09,0.3
+			c-0.09,0.3-0.22,0.53-0.4,0.7c-0.18,0.17-0.45,0.25-0.79,0.25c-0.86,0-1.29-0.4-1.29-1.2c0-0.21,0-0.21,0-0.21
+			c0.14-0.75,0.39-1.98,0.56-2.74l2.91-12.94c0.17-0.76,0.47-2,0.66-2.76c0,0,0.01-0.04,0.18-0.34c0.17-0.31,0.5-0.46,0.99-0.46
+			c0.42,0,0.74,0.11,0.97,0.33c0.22,0.22,0.34,0.52,0.34,0.9C32.38,19.6,32.38,19.6,32.38,19.6z"/>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="11.5138" y1="28.4201" x2="46.6291" y2="28.4201">
+			<stop  offset="7.449273e-03" style="stop-color:#D76543"/>
+			<stop  offset="1" style="stop-color:#F1D046"/>
+			<stop  offset="1" style="stop-color:#BFA44E"/>
+			<stop  offset="1" style="stop-color:#68594D"/>
+			<stop  offset="1" style="stop-color:#201037"/>
+			<stop  offset="1" style="stop-color:#1E0C37"/>
+		</linearGradient>
+		<path class="st3" d="M46.63,28.76c0,0.78-0.58,1.69-1.28,2.02l-10.16,4.76c-0.71,0.33-1.28-0.04-1.28-0.82v-1.02
+			c0-0.78,0.59-1.67,1.31-1.97l6.29-2.66c0.72-0.3,0.72-0.8,0-1.1l-6.28-2.62c-0.72-0.3-1.31-1.18-1.31-1.96v-0.99
+			c0-0.78,0.58-1.15,1.29-0.82l10.16,4.72c0.71,0.33,1.29,1.23,1.29,2.01V28.76z"/>
+	</g>
+</g>
+<circle class="st0" cx="32.73" cy="77.5" r="1.8"/>
+<circle class="st0" cx="25.18" cy="79.53" r="2.91"/>
+<circle class="st0" cx="29.01" cy="85.69" r="1.39"/>
+<linearGradient id="силуэт_1_" gradientUnits="userSpaceOnUse" x1="43.3958" y1="5.1249" x2="8.5364" y2="65.5033">
+	<stop  offset="0" style="stop-color:#1E0C37"/>
+	<stop  offset="0" style="stop-color:#201037"/>
+	<stop  offset="0" style="stop-color:#68594D"/>
+	<stop  offset="0" style="stop-color:#BFA44E"/>
+	<stop  offset="0" style="stop-color:#F1D046"/>
+	<stop  offset="0.9926" style="stop-color:#D76543"/>
+</linearGradient>
+<path id="силуэт_6_" class="st4" d="M19.73,53.96c-0.69-2.55-3-4.26-4.73-5.98c-2.91-2.89-7.37-6.45-9.86-11.9
+	c-3.39-7.4-1.49-13.53-1.27-14.41c2.04-8.28,8.04-12.75,9.76-14c1.2-0.87,12.01-8.4,24.45-3.55c1.06,0.41,11.26,4.28,15.1,15.27
+	c0.66,1.88,2.78,8.1-0.98,16.78c-0.86,1.99-2.37,4.79-5.58,7.8c-3.2,3.01-8.6,6.61-9.39,10.16c-0.16,0.71-0.3,2.92-0.4,7.1
+	c-0.07,3.15,0.09,8.97-0.05,9.11c-0.28,0.27-2.52,2.25-4.82,2.56c-2.19,0.3-4.4,0.19-6.56-0.1c-2.27-0.3-4.99-2.23-5.29-2.47
+	c-0.13-0.1-0.02-6.3-0.05-9.34C20.02,57.28,19.87,54.51,19.73,53.96z"/>
+</svg>
