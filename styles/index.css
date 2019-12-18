@@ -30,7 +30,14 @@ header {
   grid-template-rows: 4.4rem 4.4rem;
   cursor: pointer;
   user-select: none;
+  text-decoration: none;
+  color: #feca39;
 }
+ /* .logo h1 {
+  background: linear-gradient(to right,#d7684f, #eec85f);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;  
+}  */
 .logo-lamp {
   display: block;
 }
@@ -158,6 +165,10 @@ footer {
   width: 4rem;
   height: 4rem;
   cursor: pointer;
+}
+.contacts-ul li span {
+  display: block;
+  font-size: 1.1rem;
 }
 @media screen and (max-width: 400px) {
   .main-layout {

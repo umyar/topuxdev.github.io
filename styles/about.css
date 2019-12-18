@@ -9,9 +9,11 @@ html {
 body {
   color: #feca39;
   background-color: #1a1a1a;
-  font-family: "Montserrat", sans-serif;
-  --center: calc((100vh - 8.8rem - 8rem) / 2);
+  font-family: 'Montserrat', sans-serif;
   height: 100%;
+}
+ul {
+  list-style: none;
 }
 .main-layout {
   margin: 0 10rem;
@@ -19,8 +21,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem;
-  margin-bottom: 8rem;
+  margin: 3rem 0;
 }
 .logo {
   display: grid;
@@ -29,7 +30,14 @@ header {
   grid-template-rows: 4.4rem 4.4rem;
   cursor: pointer;
   user-select: none;
+  text-decoration: none;
+  color: #feca39;
 }
+ /* .logo h1 {
+  background: linear-gradient(to right,#d7684f, #eec85f);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;  
+}  */
 .logo-lamp {
   display: block;
 }
@@ -38,15 +46,40 @@ header {
 }
 .digital {
   grid-column-start: 2;
-  font-weight: 300;
+  font-weight: 400;
+  text-transform: uppercase;
   text-align: center;
   font-size: 1.5rem;
+  letter-spacing: 1px;
 }
 h1 {
   grid-column-start: 2;
   text-align: center;
   font-weight: 700;
   font-size: 3.3rem;
+  letter-spacing: -2px;
+}
+.main-nav {
+  display: block;
+}
+.main-nav ul {
+  display: flex;
+  align-items: center;
+}
+.main-nav-item {
+  display: flex;
+}
+.main-nav a {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+.main-nav a:hover {
+  color: #1a1a1a;
+  background: #feca39;
 }
 footer {
   display: flex;
@@ -80,6 +113,10 @@ footer {
   width: 4rem;
   height: 4rem;
   cursor: pointer;
+}
+.contacts-ul li span {
+  display: block;
+  font-size: 1.1rem;
 }
 .about-description p {
   margin: 1.5rem auto;
