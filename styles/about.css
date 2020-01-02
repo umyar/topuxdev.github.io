@@ -108,14 +108,15 @@ footer {
   list-style: none;
   margin: 0 1rem;
 }
-
 .contacts-ul li img {
   width: 4rem;
   height: 4rem;
   cursor: pointer;
+  margin: 0 auto;
 }
-.contacts-ul li span {
-  display: block;
+.contacts-ul li a {
+  display: flex;
+  flex-direction: column;
   font-size: 1.1rem;
 }
 .about-description p {

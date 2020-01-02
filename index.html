@@ -2,71 +2,119 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" />
+    <meta
+      name="description"
+      content="Диджитал агенство topux.dev. Веб-разработка. Оптимизация сайтов"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>topux.dev</title>
+    <link rel="shortcut icon" href="./img/pictogram.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/index.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="manifest" href="./manifest.json">
   </head>
   <body>
     <div class="main-layout">
       <header>
         <a href="./index.html" class="logo">
-          <div class="logo-lamp"><img src="./img/fat-lamp.png" alt="topuxdev logo"/></div>
+          <div class="logo-lamp"><img src="./img/lampbold.png" alt="topuxdev logo" /></div>
           <h1>topux.dev</h1>
           <strong class="digital">Digital Agency</strong>
         </a>
-        <nav class="main-nav">
-          <ul>
-            <li class="main-nav-item">
-              <a href="./about.html">О нас</a>
-            </li>
-            <li class="main-nav-item">
-              <a href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="main-nav-item">
-              <a href="./contacts.html">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="nav-wrap">
+          <div class="menu-toggle-button" onclick="myFunction(this)" role="button" aria-pressed="false">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <nav class="main-nav">
+            <ul>
+              <li class="main-nav-item">
+                <a href="./about.html">О нас</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
       <main>
         <article class="main-article">
           <h2>Делаем сайты, за которые не стыдно</h2>
-          <span>а также:</span>
-          <ul class="advantages">
-            <li>
-              <img src="./img/icons/speedometer1.png" alt="" />
-              <span class="advantage"><b>Оптимизируем</b> уже готовые сайты</span>
-            </li>
-            <li>
-              <img src="./img/icons/arrow1.png" alt="" />
-              <span class="advantage">Можем помочь с <b>SEO</b> и <b>SMM</b></span>
-            </li>
-            <li>
-              <img class="mini" src="./img/icons/cube1.png" alt="" />
-              <span class="advantage">Умеем в <b>3d-моделирование</b></span>
-            </li>
-            <li>
-              <img src="./img/icons/cg1.png" alt="" />
-              <span class="advantage">Занимаемся <b>цифровой графикой</b></span>
-            </li>
-          </ul>
+          <div class="additional">
+            <span>а также:</span>
+            <ul class="advantages">
+              <li>
+                <img src="./img/icons/speedometer1.png" alt="" />
+                <span class="advantage"><strong>Оптимизируем</strong> уже готовые сайты</span>
+              </li>
+              <li>
+                <img src="./img/icons/arrow1.png" alt="" />
+                <span class="advantage"
+                  >Можем помочь с <strong>SEO</strong> и <strong>SMM</strong></span
+                >
+              </li>
+              <li>
+                <img src="./img/icons/cube1.png" alt="" />
+                <span class="advantage">Умеем в <strong>3d-моделирование</strong></span>
+              </li>
+              <li>
+                <img src="./img/icons/cg1.png" alt="" />
+                <span class="advantage">Занимаемся <strong>цифровой графикой</strong></span>
+              </li>
+            </ul>
+          </div>
         </article>
       </main>
       <footer>
         <div class="contacts">
           <a href="tel:+79272865060">+7(927)286-50-60</a>
           <ul class="contacts-ul">
-            <li><img src="./img/viber.png" alt="Вайбер" /><span>Viber</span></li>
-            <li><img src="./img/whatsapp.png" alt="Ватсап" /><span>WhatsApp</span></li>
-            <li><img src="./img/телеграм.png" alt="Телеграм" /><span>Telegram</span></li>
-            <li><img src="./img/phone.png" alt="Телефон" /><span>Phone</span></li>
+            <li>
+              <a href="viber://chat?number=+79272865060"
+                ><img src="./img/viber.png" alt="Вайбер" />Viber</a
+              >
+            </li>
+            <li>
+              <a href="whatsapp://send?phone=+79272865060"
+                ><img src="./img/whatsapp.png" alt="Ватсап" />WhatsApp</a
+              >
+            </li>
+            <li>
+              <a href="tg://resolve?domain=umyar"
+                ><img src="./img/телеграм.png" alt="Телеграм" />Telegram</a
+              >
+            </li>
+            <li>
+              <a href="tel:+79272865060"><img src="./img/phone.png" alt="Телефон" />Phone</a>
+            </li>
           </ul>
         </div>
       </footer>
     </div>
+    <script>
+      function myFunction(x) {
+        const menu = document.querySelector('.main-nav');
+        const main = document.querySelector('main');
+        const footer = document.querySelector('footer');
+        const logo = document.querySelector('.logo');
+
+        main.classList.toggle("blured");
+        footer.classList.toggle("blured");
+        logo.classList.toggle("blured");
+
+        menu.classList.toggle("opened-menu");
+        x.classList.toggle("change");
+
+
+      }
+    </script>
   </body>
 </html>

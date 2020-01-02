@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "theme": {
+    "colors": {
+      "frame": "black",
+      "tab_background_text": "white",
+      "tab_text": "white",
+      "toolbar": "black",
+      "bookmark_text": "red"
+    }
+  }
+}
